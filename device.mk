@@ -35,6 +35,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PACKAGES += \
     AntHalService
 
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    GCamGo
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
