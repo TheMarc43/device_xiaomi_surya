@@ -1,0 +1,14 @@
+[ 
+  { 
+    "remote": "github", 
+    "repository":"Xtended-Devices/kernel_xiaomi_surya", 
+    "target_path":"kernel/xiaomi/surya", 
+    "branch": "xr"
+  },
+  { 
+    "remote": "github", 
+    "repository":"Xtended-Devices/vendor_xiaomi_surya", 
+    "target_path":"vendor/xiaomi", 
+    "branch": "xr"
+   }
+]
