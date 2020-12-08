@@ -6,11 +6,11 @@
 
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
-# Inherit some common Xtended stuff.
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+# Inherit some common legion stuff.
+$(call inherit-product, vendor/legion/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := xtended_surya
+PRODUCT_NAME := legion_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X3
@@ -21,7 +21,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Xtended Official
-XTENDED_BUILD_TYPE := OFFICIAL
-XTENDED_MAINTAINER := AmJith
-
+WITH_GAPPS=true
